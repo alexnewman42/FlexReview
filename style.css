@@ -17,20 +17,12 @@ body {
     height: 50vh;
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
-    flex-direction: row;
+    flex-flow: row nowrap;
 }
 
-.box-1{
-}
-
-.box-2{
-}
-
-.box-3{
-
-}
-
-.box-4{
-
+[class ^="box-"] {
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+    border-radius: 10px;
 }
