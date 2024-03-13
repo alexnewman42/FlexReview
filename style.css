@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 html, body {
@@ -6,11 +5,10 @@ html, body {
 }
 
 body {
-  font-family: Roboto, sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,14 +35,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0; /*keeps the icon from being smashed by the text */
+  flex-shrink: 0;
 }
 
 .close-button {
-  background: #eee;
+  background-color: #eee;
   border-radius: 50%;
   color: #888;
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 16px;
   height: 24px;
   width: 24px;
@@ -52,14 +50,14 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
-  padding: 0;
+  padding: 0px;
 }
 
 .header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 10px;
   font-weight: 700;
   margin-bottom: 8px;
 }
@@ -75,13 +73,13 @@ button {
 }
 
 button.continue {
-  background: royalblue;
+  background-color: royalblue;
   border: 1px solid royalblue;
   color: white;
 }
 
 button.cancel {
-  background: white;
+  background-color: white;
   border: 1px solid #ddd;
   color: royalblue;
 }
